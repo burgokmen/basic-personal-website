@@ -1,0 +1,47 @@
+/* Cascading Style Sheets properties: values; */
+
+body {
+  margin: 0;
+}
+main {
+  background-color: #1a659e;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: #ffffff;
+  width: 400px;
+  padding: 32px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #f7c59f;
+  font-size: 32px;
+  font-family: "Lato", sans-serif;
+  margin-bottom: 0;
+}
+
+p {
+  color: #f7c59f;
+  font-size: 20px;
+  font-family: "Lato", sans-serif;
+  margin-top: 8px;
+}
+
+img {
+  width: 140px;
+  height: 140px;
+  border-radius: 9999px;
+}
+
+.links {
+}
+
+a {
+  margin: 8px;
+}
