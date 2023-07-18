@@ -2,8 +2,6 @@
 
 body {
   margin: 0;
-}
-main {
   background-color: #1a659e;
   height: 100vh;
   display: flex;
@@ -25,6 +23,9 @@ h1 {
   font-family: "Lato", sans-serif;
   margin-bottom: 0;
 }
+h1 i {
+  font-size: 5rem;
+}
 
 p {
   color: #f7c59f;
@@ -39,9 +40,14 @@ img {
   border-radius: 9999px;
 }
 
-.links {
+a {
+  margin: 1rem;
+  font-size: 1.5rem;
 }
 
-a {
-  margin: 8px;
+a:link,
+a:visited {
+  text-decoration: none;
+
+  color: black;
 }
