@@ -53,3 +53,32 @@ a:visited {
 
   color: black;
 }
+
+@media screen and (max-width: 600px) {
+  body {
+    align-items: stretch;
+  }
+  .card {
+    background-color: #1a659e00;
+    width: 400px;
+    padding: 32px;
+    border-radius: 20px;
+    text-align: center;
+    border: 0.2rem solid rgba(28, 1, 1, 0.917);
+  }
+
+  h1 {
+    color: rgb(243, 141, 9);
+    font-size: 2rem;
+  }
+  h1 i {
+    font-size: 5.1rem;
+  }
+
+  p {
+    color: aliceblue;
+    font-size: 22px;
+    font-family: "Lato", sans-serif;
+    margin-top: 8px;
+  }
+}
