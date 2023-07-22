@@ -20,17 +20,17 @@ body {
 
 h1 {
   color: #f7c59f;
-  font-size: 32px;
+  font-size: 30px;
   font-family: "Lato", sans-serif;
   margin-bottom: 0;
 }
 h1 i {
-  font-size: 5rem;
+  font-size: 5.1rem;
 }
 
 p {
   color: #f7c59f;
-  font-size: 20px;
+  font-size: 22px;
   font-family: "Lato", sans-serif;
   margin-top: 8px;
 }
